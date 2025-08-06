@@ -1,6 +1,6 @@
-# Contributing to Isoflow
+# Contributing to FossFLOW
 
-Thank you for your interest in contributing to Isoflow! This guide will help you get started with contributing to the project.
+Thank you for your interest in contributing to FossFLOW! This guide will help you get started with contributing to the project.
 
 ## Table of Contents
 
@@ -14,6 +14,8 @@ Thank you for your interest in contributing to Isoflow! This guide will help you
 - [Testing](#testing)
 - [Submitting Changes](#submitting-changes)
 - [Community](#community)
+- [Recognition](#recognition)
+- [License](#license)
 
 ## Code of Conduct
 
@@ -38,12 +40,12 @@ By participating in this project, you agree to abide by our Code of Conduct:
 1. Fork the repository on GitHub
 2. Clone your fork:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/isoflow.git
-   cd isoflow
+   git clone https://github.com/YOUR_USERNAME/FossFLOW.git
+   cd FossFLOW
    ```
 3. Install dependencies:
    ```bash
-   cd isoflow
+   cd FossFLOW
    npm install
    ```
 4. Start the development server:
@@ -83,9 +85,9 @@ Recommended extensions:
 For detailed project structure, see [ISOFLOW_ENCYCLOPEDIA.md](./ISOFLOW_ENCYCLOPEDIA.md). Key directories:
 
 ```
-isoflow/
+fossflow-lib/
 ├── src/
-│   ├── components/     # React components
+│   ├── components/    # React components
 │   ├── stores/        # State management (Zustand)
 │   ├── hooks/         # Custom React hooks
 │   ├── interaction/   # User interaction handling
@@ -99,7 +101,7 @@ isoflow/
 
 ### Finding Issues to Work On
 
-1. Check the [Issues](https://github.com/stan-smith/isoflow/issues) page
+1. Check the [Issues](https://github.com/stan-smith/fossflow-lib/issues) page
 2. Look for issues labeled:
    - `good first issue` - Great for newcomers
    - `help wanted` - Community help needed
@@ -116,7 +118,7 @@ We welcome all types of contributions:
 - **Features**: Implement new functionality
 - **Documentation**: Improve docs, add examples
 - **Tests**: Increase test coverage
-- **UI/UX improvements**: Make Isoflow better to use
+- **UI/UX improvements**: Make Fossflow better to use
 - **Performance**: Optimize code for better performance
 
 ## Development Workflow
@@ -255,7 +257,7 @@ describe('useIsoProjection', () => {
 
 1. **Update your fork**:
    ```bash
-   git remote add upstream https://github.com/markmanx/isoflow.git
+   git remote add upstream https://github.com/stan-smith/fossflow-lib.git
    git fetch upstream
    git checkout main
    git merge upstream/main
@@ -334,7 +336,7 @@ Contributors will be recognized in:
 
 ## License
 
-By contributing to Isoflow, you agree that your contributions will be licensed under the Unlicense License.
+By contributing to Fossflow, you agree that your contributions will be licensed under the Unlicense License.
 
 ---
 
