@@ -18,8 +18,8 @@ Isoflow is an open-source React component for drawing isometric network diagrams
 ## Project Structure
 
 ```
-isoflow/
-├── src/                      # Source code
+fossflow-lib/
+├── src/                     # Source code
 │   ├── Isoflow.tsx          # Main component entry point
 │   ├── index.tsx            # Development entry point
 │   ├── config.ts            # Configuration constants
@@ -34,8 +34,8 @@ isoflow/
 │   └── styles/              # Styling (theme, global styles)
 ├── docs/                    # Documentation website (Nextra)
 ├── webpack/                 # Webpack configurations
-├── package.json            # Dependencies and scripts
-└── tsconfig.json           # TypeScript configuration
+├── package.json             # Dependencies and scripts
+└── tsconfig.json            # TypeScript configuration
 ```
 
 ## Core Architecture
